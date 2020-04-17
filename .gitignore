@@ -1,6 +1,5 @@
 *.DS_Store
 *.pyc
-models/
 data/
 output/
 prediction/
