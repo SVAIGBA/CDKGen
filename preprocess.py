@@ -195,9 +195,20 @@ def main(opt):
     embedder = SentenceTransformer('bert-base-nli-mean-tokens')
 
     kpcorpus = []
-    files_path = ['data/keyphrase/json/kp20k/kp20k_train.json',
-                  'data/keyphrase/json/kp20k/kp20k_valid.json',
-                  'data/keyphrase/json/kp20k/kp20k_test.json']
+    files_path = [#'data/keyphrase/json/kp20k/kp20k_train.json',
+              'data/keyphrase/json/kp20k/kp20k_valid.json',
+              'data/keyphrase/json/kp20k/kp20k_test.json',
+              'data/keyphrase/json/inspec/inspec_valid.json',
+              'data/keyphrase/json/inspec/inspec_test.json',
+              'data/keyphrase/json/krapivin/krapivin_valid.json',
+              'data/keyphrase/json/krapivin/krapivin_test.json',
+              'data/keyphrase/json/nus/split/nus_valid.json',
+              'data/keyphrase/json/nus/split/nus_test.json',
+              'data/keyphrase/json/semeval/semeval_valid.json',
+              'data/keyphrase/json/semeval/semeval_test.json',
+              'data/keyphrase/json/duc/split/duc_valid.json',
+              'data/keyphrase/json/duc/split/duc_test.json'
+              ]
     for file_path in files_path:
         file = open(file_path, 'r')
         for line in file.readlines():
