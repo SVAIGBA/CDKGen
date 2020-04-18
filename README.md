@@ -8,7 +8,7 @@ CDKGen is a Transformer-based keyphrase generator, which expands the Transformer
 
 
 ### Dependencies
-python 3.6+
+python 3.6
 
 pytorch 1.1
 
