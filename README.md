@@ -6,6 +6,21 @@ CDKGen is a Transformer-based keyphrase generator, which expands the Transformer
 
 ![ZEN_model](./images/model.png)
 
+## Citation
+
+If you use or extend our work, please cite the following [**paper**](https://arxiv.org/abs/2004.09800):
+
+
+```
+@article{Sinovation2020CDKGen,
+  title="{Keyphrase Generation with Cross-Document Attention}",
+  author={Shizhe Diao, Yan Song, Tong Zhang},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2004.09800}
+}
+```
+
 
 ### Dependencies
 python 3.6
